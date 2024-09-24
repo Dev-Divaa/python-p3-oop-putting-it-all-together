@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 
 class Book:
     def __init__(self, title, page_count):
@@ -16,7 +16,7 @@ class Book:
 
     @property
     def page_count(self):
-        """Retrieving page count"""
+        
         return self._page_count
     
     @page_count.setter
